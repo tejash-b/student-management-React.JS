@@ -17,7 +17,7 @@ const SignIn = () => {
         else{
             const loginData = { username, password, email };
 
-            fetch('http://localhost:8000/logindata',{
+            fetch('https://student-details-api.herokuapp.com/loginData',{
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(loginData)

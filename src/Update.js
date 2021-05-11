@@ -16,7 +16,7 @@ const Update = () => {
     const history = useHistory();
 
     useEffect(() =>{
-        fetch('http://localhost:8005/studentData')
+        fetch('https://student-details-api.herokuapp.com/studentData')
         .then(res => {return res.json()})
         .then(data => setStudents(data))
          
@@ -62,7 +62,7 @@ const Update = () => {
         
         const updatedData = {name,dob,age,classgrade,phno,joining};
             
-        fetch('http://localhost:8005/studentData/'+id ,{
+        fetch('https://student-details-api.herokuapp.com/studentData/'+id ,{
             method:'PATCH',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatedData)

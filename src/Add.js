@@ -20,7 +20,7 @@ const Add = () => {
         else{
             const studentData = { name,dob,age,classgrade,phno,joining };
 
-            fetch('http://localhost:8005/studentData',{
+            fetch('https://student-details-api.herokuapp.com/studentData',{
             method:'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(studentData)

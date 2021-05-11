@@ -14,7 +14,7 @@ const Dashboard = () => {
     var temp = [];
 
     useEffect( () => {
-        fetch('http://localhost:8005/studentData')
+        fetch('https://student-details-api.herokuapp.com/studentData')
         .then(res => { return res.json() })
         .then(data =>{ 
             setStudents(data);

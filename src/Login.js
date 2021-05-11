@@ -12,7 +12,7 @@ const Login = () => {
  
 
     useEffect( () => {
-        fetch('http://localhost:8000/logindata')
+        fetch('https://student-details-api.herokuapp.com/loginData')
         .then(res => res.json())
         .then(data => setUsers(data))
     },[users])
