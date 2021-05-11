@@ -57,7 +57,7 @@ body, h1,h2,img {
 .home img{
   width: 100%;
   max-height: 70vh;
-  opacity: 80%;
+  opacity: 80;
   margin: 1px;
   max-width: 90%;
   border-radius: 5px;
