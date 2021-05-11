@@ -1,0 +1,49 @@
+{
+  "studentData": [
+    {
+      "id": 1,
+      "name": "tejash",
+      "dob": "14-03-1998",
+      "age": 23,
+      "classgrade": 12,
+      "phno": 1234567,
+      "joining": 2020
+    },
+    {
+      "name": "qwe",
+      "dob": "10-10-2020",
+      "age": "10",
+      "classgrade": "8",
+      "phno": "12345",
+      "joining": "2020",
+      "id": 2
+    },
+    {
+      "name": "prq",
+      "dob": "10-10-2020",
+      "age": "16",
+      "classgrade": "10",
+      "phno": "12345",
+      "joining": "2020",
+      "id": 3
+    },
+    {
+      "name": "xyz",
+      "dob": "12-09-2020",
+      "age": "10",
+      "classgrade": "6",
+      "phno": "123987",
+      "joining": "2020",
+      "id": 5
+    },
+    {
+      "name": "abc",
+      "dob": "1",
+      "age": "1",
+      "classgrade": "1",
+      "phno": "1",
+      "joining": "1",
+      "id": 6
+    }
+  ]
+}

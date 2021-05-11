@@ -1,0 +1,28 @@
+{
+  "logindata": [
+    {
+      "username": "tejash",
+      "password": "tejash",
+      "email": "tejash@gmail.com",
+      "id": 1
+    },
+    {
+      "username": "tej",
+      "password": "tej",
+      "email": "tej",
+      "id": 2
+    },
+    {
+      "username": "tej",
+      "password": "tej",
+      "email": "tej",
+      "id": 3
+    },
+    {
+      "username": "abc",
+      "password": "abc",
+      "email": "abc@gmail.com",
+      "id": 4
+    }
+  ]
+}
