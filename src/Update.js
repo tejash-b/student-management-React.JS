@@ -74,7 +74,7 @@ const Update = () => {
     }
     
     const deleteClicked = (id) => {
-        fetch('http://localhost:8005/studentData/'+id ,{
+        fetch('https://student-details-api.herokuapp.com/studentData/'+id ,{
             method:'DELETE'
             })
             .then( () => {
